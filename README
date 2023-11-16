@@ -1,6 +1,6 @@
 # Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
 node index.js --action="list"
-Link to screen: https://monosnap.com/file/ewXI4yT07B6K5Oxc7DEKmYC3h5npga
+Link to screen: https://monosnap.com/file/4eOpQNnQfTqx4pkaRUVAkXQBi2joE0
 
 # Отримуємо контакт по id і виводимо у консоль об'єкт контакту або null, якщо контакту з таким id не існує.
 node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6
@@ -8,7 +8,7 @@ Link to screen: https://monosnap.com/file/R1IjcfGqt4HWPStcwPH8s8LCunrbsS
 
 # Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
 node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22
-Link to screen: https://monosnap.com/file/e1iofCRwUpQfuHEgVzMShf8JyS84VF
+Link to screen: https://monosnap.com/file/trKLPpRTY5cOvn3tCKMqBGMKFvPbh2
 
 # Видаляємо контакт та виводимо в консоль об'єкт видаленого контакту або null, якщо контакту з таким id не існує.
 node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH

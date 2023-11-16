@@ -41,7 +41,7 @@ export const removeContact = async (contactId) => {
     }
 }
 
-export const addContact = async (name, email, phone) => {
+export const addContact = async ({ name, email, phone }) => {
     try {
         const contacts = await listContacts();
         const newContact = {
